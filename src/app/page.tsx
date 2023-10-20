@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <section className="flex flex-col p-4">
+    <section className="flex justify-center items-center min-h-screen w-full">
       <div className="bg-white p-5 rounded-2xl text-black flex flex-col gap-3">
         <Link className="w-fit" href={"/1"}>First step - creating <span className="font-semibold">Arrays</span> and using <span className="font-semibold">.map</span></Link>
         <Link className="w-fit" href={"/2"}>Second step - why should we use Typescript? What did we learn about <span className="font-semibold">Props</span></Link>
